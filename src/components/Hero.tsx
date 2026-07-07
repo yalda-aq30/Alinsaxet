@@ -13,7 +13,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://images.pexels.com/photos/1567717/pexels-photo-1567717.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80')`,
+          backgroundImage: `url('/background.jpeg')`, 
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/70 via-charcoal-950/50 to-charcoal-950/80" />
