@@ -11,19 +11,12 @@ export default function Hero() {
     >
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-no-repeat bg-[70%_center] sm:bg-center"
         style={{
           backgroundImage: `url('/background.jpeg')`,
-          backgroundPosition: 'center', // حالت پیش‌فرض برای دسکتاپ
         }}
       >
-        {/* با استایلِ این‌لاین برای موبایل بازنویسی می‌کنیم */}
-        <style>{`
-          @media (max-width: 640px) {
-            .mobile-bg-pos { background-position: 70% center !important; }
-          }
-        `}</style>
-        <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/70 via-charcoal-950/50 to-charcoal-950/80 mobile-bg-pos" />
+        <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/70 via-charcoal-950/50 to-charcoal-950/80" />
       </div>
 
       {/* Content */}
