@@ -45,7 +45,7 @@ export default function Contact() {
               href="tel:+358401234567"
               className="font-body text-sm text-charcoal-300 hover:text-gold-400 transition-colors"
             >
-              +358 40 123 4567
+              +358 46 5673569
             </a>
           </div>
 
@@ -65,6 +65,21 @@ export default function Contact() {
             >
               @alinsaxet
             </a>
+            
+          </div>
+          {/* Opening Hours */}
+          <div className="group text-center p-8 rounded-lg border border-gold-500/10 bg-charcoal-900/30 hover:border-gold-500/30 hover:bg-charcoal-900/20 transition-all duration-300">
+            <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gold-500/10 mb-6 group-hover:bg-gold-500/20 transition-colors">
+              <span className="text-gold-400">🕒</span> {/* می‌توانید از آیکون‌های lucide-react هم استفاده کنید */}
+            </div>
+            <h3 className="font-display text-lg font-medium text-gold-400 mb-4">
+              Opening Hours
+            </h3>
+            <div className="font-body text-sm text-charcoal-300 space-y-2">
+              <p>Mon - Fri: 09:00 - 18:00</p>
+              <p>Sat: 10:00 - 15:00</p>
+              <p>Sun: Closed</p>
+            </div>
           </div>
         </div>
       </div>
