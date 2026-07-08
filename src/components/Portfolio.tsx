@@ -4,11 +4,11 @@ import { useLanguage } from '../context/LanguageContext';
 
 // فرض می‌کنیم عکس‌های محصولات را هم در پوشه assets داری
 import instagram1 from '../assets/ServicesImages/instagram1.png'; 
-import instagram2 from '../assets/ServicesImages/instagram2.png'; 
+import client1 from '../assets/ServicesImages/client1.jpeg'; 
 import instagram3 from '../assets/ServicesImages/instagram3.png'; 
 import instagram4 from '../assets/ServicesImages/instagram4.png'; 
 import instagram5 from '../assets/ServicesImages/instagram5.png'; 
-import instagram6 from '../assets/ServicesImages/instagram6.png'; 
+import client2 from '../assets/ServicesImages/client2.jpeg'; 
 import product1 from '../assets/ServicesImages/product1.png'; 
 import product2 from '../assets/ServicesImages/product2.png'; 
 import product3 from '../assets/ServicesImages/product3.png'; 
@@ -36,11 +36,11 @@ export default function Portfolio() {
 
   const clientImages: GalleryImage[] = [
     { id: 1, src: instagram1, alt: 'Client 1' },
-    { id: 2, src: instagram2, alt: 'Client 2' },
+    { id: 2, src: client1, alt: 'Client 2' },
     { id: 3, src: instagram3, alt: 'Client 3' },
     { id: 4, src: instagram4, alt: 'Client 4' },
     { id: 5, src: instagram5, alt: 'Client 5' },
-    { id: 6, src: instagram6, alt: 'Client 6' },
+    { id: 6, src: client2, alt: 'Client 6' },
     // عکس‌های مشتریانت را اینجا اضافه کن
   ];
 
