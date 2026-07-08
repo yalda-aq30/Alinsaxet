@@ -13,7 +13,7 @@ export default function About() {
             <div className="absolute -inset-4 bg-gold-500/10 rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <div className="relative overflow-hidden rounded-lg">
               <img
-                src="/instagram2.png"
+                src="/shop.jpeg"
                 alt="Alin Saxet Studio"
                 className="w-full h-[400px] sm:h-[500px] object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
