@@ -66,6 +66,16 @@ interface Translations {
       title: string;
       description: string;
     };
+    pricing: {
+    title: string;
+    items: {
+      menHaircut: { name: string; price: string };
+      womenHaircut: { name: string; price: string };
+      eyelashTint: { name: string; price: string };
+      threading: { name: string; price: string };
+      beardShave: { name: string; price: string };
+    };
+  };
   };
   portfolio: {
     title: string;
@@ -148,6 +158,17 @@ const translations: Record<Language, Translations> = {
         title: 'Hiusöljy',
         description: 'Laadukas öljy hiusten hoitamiseen – saa parhaat tulokset hiushoito-rutiinistasi.',
       },
+      
+    },
+    pricing: {
+      title: 'Hinnasto',
+      items: {
+        menHaircut: { name: 'Miesten hiusten leikkuu', price: '25€' },
+        womenHaircut: { name: 'Naisten hiusten leikkuu', price: '35€' },
+        eyelashTint: { name: 'Ripsien ja kulmien värjäys', price: '29€' },
+        threading: { name: 'Kulmien muotoilu lankaamalla', price: '15€' },
+        beardShave: { name: 'Parranajo', price: '15€' },
+      },
     },
     portfolio: {
       title: 'Galleria',
@@ -227,6 +248,17 @@ const translations: Record<Language, Translations> = {
       beardOil: {
         title: 'Beard Oil',
         description: 'High-quality oil for your beard – get the best results for your beard care routine.',
+      },
+      
+    },
+    pricing: {
+      title: 'Price List',
+      items: {
+        menHaircut: { name: "Men's Haircut", price: '25€' },
+        womenHaircut: { name: "Women's Haircut", price: '35€' },
+        eyelashTint: { name: 'Eyelash & Eyebrow Tinting', price: '29€' },
+        threading: { name: 'Eyebrow Threading', price: '15€' },
+        beardShave: { name: 'Beard Shave', price: '15€' },
       },
     },
     portfolio: {
