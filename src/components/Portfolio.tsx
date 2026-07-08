@@ -12,6 +12,15 @@ import instagram6 from '../assets/ServicesImages/instagram6.png';
 import product1 from '../assets/ServicesImages/product1.png'; 
 import product2 from '../assets/ServicesImages/product2.png'; 
 import product3 from '../assets/ServicesImages/product3.png'; 
+import product4 from '../assets/ServicesImages/product4.jpeg'; 
+import product5 from '../assets/ServicesImages/product5.jpeg'; 
+import product6 from '../assets/ServicesImages/product6.jpeg'; 
+import product7 from '../assets/ServicesImages/product7.jpeg'; 
+import product8 from '../assets/ServicesImages/product8.jpeg'; 
+import product9 from '../assets/ServicesImages/product9.jpeg'; 
+import product10 from '../assets/ServicesImages/product10.jpeg'; 
+import product11 from '../assets/ServicesImages/product11.jpeg'; 
+
 // ... عکس‌های خودت را اینجا import کن
 
 interface GalleryImage {
@@ -39,6 +48,14 @@ export default function Portfolio() {
     { id: 1, src: product1, alt: 'Product 1' },
     { id: 2, src: product2, alt: 'Product 2' },
     { id: 3, src: product3, alt: 'Product 3' },
+    { id: 4, src: product4, alt: 'Product 4' },
+    { id: 5, src: product5, alt: 'Product 5' },
+    { id: 6, src: product6, alt: 'Product 6' },
+    { id: 7, src: product7, alt: 'Product 7' },
+    { id: 8, src: product8, alt: 'Product 8' },
+    { id: 9, src: product9, alt: 'Product 9' },
+    { id: 10, src: product10, alt: 'Product 10' },
+    { id: 11, src: product11, alt: 'Product 11' },
   ];
 
   const currentImages = activeTab === 'clients' ? clientImages : productImages;
