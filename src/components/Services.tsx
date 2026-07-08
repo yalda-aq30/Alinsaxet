@@ -1,7 +1,11 @@
 import { useLanguage } from '../context/LanguageContext';
 
-import haircut from '../assets/ServicesImages/Haircut.jpg';  
-import styling from '../assets/ServicesImages/Styling.jpg';  
+import haircut from '../assets/ServicesImages/Haircut.jpg';    
+import styling from '../assets/ServicesImages/Styling.jpg'; 
+import shaveBeard from '../assets/ServicesImages/shaveBeard.jpg';   
+import sellShampoo from '../assets/ServicesImages/sellShampoo.jpg';  
+import sellWax from '../assets/ServicesImages/sellWax.jpg';  
+import beardOil from '../assets/ServicesImages/beardOil.jpg';  
 
 
 
@@ -22,8 +26,24 @@ export default function Services() {
     },
     {
       title: t.services.coloring.title,
-      description: t.services.coloring.description,
+      description: t.services.coloring.description, 
       image: 'https://images.pexels.com/photos/3993314/pexels-photo-3993314.jpeg?auto=compress&cs=tinysrgb&w=600&q=80',
+    },
+    { title: t.services.shaveBeard.title, 
+      description: t.services.shaveBeard.description, 
+      image: shaveBeard,  
+    },
+    { title: t.services.sellShampoo.title, 
+      description: t.services.sellShampoo.description, 
+      image: sellShampoo, 
+    }, 
+    { title: t.services.sellWax.title, 
+      description: t.services.sellWax.description, 
+      image: sellWax 
+    },
+    { title: t.services.beardOil.title, 
+      description: t.services.beardOil.description, 
+      image: beardOil, 
     },
   ];
 

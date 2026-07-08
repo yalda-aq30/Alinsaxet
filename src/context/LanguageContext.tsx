@@ -50,6 +50,22 @@ interface Translations {
       title: string;
       description: string;
     };
+    shaveBeard: {
+      title: string;
+      description: string;
+    };
+    sellShampoo: {
+      title: string;
+      description: string;
+    };
+    sellWax: {
+      title: string;
+      description: string;
+    };
+    beardOil: {
+      title: string;
+      description: string;
+    };
   };
   portfolio: {
     title: string;
@@ -116,6 +132,22 @@ const translations: Record<Language, Translations> = {
         title: 'Värjäykset',
         description: 'Hienovaraisista korostuksista dramaattisiin värimuutoksiin – saat upean värin, joka kestää.',
       },
+      shaveBeard: {
+        title: 'Hiusleikkaus',
+        description: 'Täydellinen leikkaus, joka sopii kasvojesi muotoon ja elämäntyyliisi. Konsultointi sisältyy aina palveluumme.',
+      },
+      sellShampoo: {
+        title: 'Myy Shampoo',
+        description: 'Laadukas shampoo hiusten hoitamiseen – saa parhaat tulokset hiushoito-rutiinistasi.',
+      },
+      sellWax: {
+        title: 'Myy Waks',
+        description: 'Laadukas waksi hiusten hoitamiseen – saa parhaat tulokset hiushoito-rutiinistasi.',
+      },
+      beardOil: {
+        title: 'Hiusöljy',
+        description: 'Laadukas öljy hiusten hoitamiseen – saa parhaat tulokset hiushoito-rutiinistasi.',
+      },
     },
     portfolio: {
       title: 'Galleria',
@@ -176,9 +208,25 @@ const translations: Record<Language, Translations> = {
         title: 'Styling',
         description: 'Party, bridal, or everyday styling – we create the perfect look for you in any situation.',
       },
+      shaveBeard: {
+        title: 'Shave Beard',
+        description: 'A perfect shave that suits your face shape and lifestyle. Consultation is always included.',
+      },
       coloring: {
         title: 'Coloring',
         description: 'From subtle highlights to dramatic color changes – get a beautiful color that lasts.',
+      },
+      sellShampoo: {
+        title: 'Sell Shampoo',
+        description: 'High-quality shampoo for your hair – get the best results for your hair care routine.',
+      },
+      sellWax: {
+        title: 'Sell Wax',
+        description: 'High-quality wax for your hair – get the best results for your hair care routine.',
+      },
+      beardOil: {
+        title: 'Beard Oil',
+        description: 'High-quality oil for your beard – get the best results for your beard care routine.',
       },
     },
     portfolio: {
